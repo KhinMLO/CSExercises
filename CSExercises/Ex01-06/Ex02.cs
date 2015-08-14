@@ -10,6 +10,7 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            int num;
             Console.Write("Enter integer number : ");
             num = Convert.ToInt32(Console.ReadLine());
             if (num == 0)

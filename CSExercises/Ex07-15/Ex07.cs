@@ -13,12 +13,13 @@ namespace CSExercises
             double sal;
             double house;
             double tran;
+            double income;
             Console.Write("Enter your salary : ");
             sal = Convert.ToDouble(Console.ReadLine());
             house = (sal / 100) * 10;
             tran = (sal / 100) * 3;
-            Console.WriteLine("house " + house);
-            Console.WriteLine("Your total income is " + tran);
+            income = sal + house + tran;
+            Console.WriteLine("Your total income is {0:C}" , income);
         }
     }
 }
