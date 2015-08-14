@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            double num;
+            Console.Write("Enter number ");
+            num = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Square root of the number is " + Math.Sqrt(num));
         }
     }
 }
