@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex43</StartupObject>
+    <StartupObject>BusinessCase.BuzCase3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuzCase\BuzCase3.cs" />
+    <Compile Include="BuzCase\BuzCase2.cs" />
+    <Compile Include="BuzCase\BuzCase1.cs" />
     <Compile Include="Ex39-44\Ex39.cs" />
     <Compile Include="Ex01-06\Ex06.cs" />
     <Compile Include="Ex01-06\Ex05.cs" />
